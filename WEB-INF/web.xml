@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>onlinebooks</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>com.Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddReader</servlet-name>
+    <servlet-class>com.AddReader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddReader</servlet-name>
+    <url-pattern>/AddReader</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddAuthor</servlet-name>
+    <servlet-class>com.AddAuthor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddAuthor</servlet-name>
+    <url-pattern>/AddAuthor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddBook</servlet-name>
+    <servlet-class>com.AddBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddBook</servlet-name>
+    <url-pattern>/AddBook</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddPublisher</servlet-name>
+    <servlet-class>com.AddPublisher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPublisher</servlet-name>
+    <url-pattern>/AddPublisher</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>AddLibBranch</servlet-name>
+    <servlet-class>com.AddLibBranch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddLibBranch</servlet-name>
+    <url-pattern>/AddLibBranch</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Reader</servlet-name>
+    <servlet-class>com.Reader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reader</servlet-name>
+    <url-pattern>/Reader</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>com.Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Checkout</servlet-name>
+    <servlet-class>com.Checkout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Checkout</servlet-name>
+    <url-pattern>/Checkout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Return</servlet-name>
+    <servlet-class>com.Return</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Return</servlet-name>
+    <url-pattern>/Return</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Reserve</servlet-name>
+    <servlet-class>com.Reserve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reserve</servlet-name>
+    <url-pattern>/Reserve</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>PubBooks</servlet-name>
+    <servlet-class>com.PubBooks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PubBooks</servlet-name>
+    <url-pattern>/PubBooks</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>AdminSearch</servlet-name>
+    <servlet-class>com.AdminSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminSearch</servlet-name>
+    <url-pattern>/AdminSearch</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>FreqBorrowers</servlet-name>
+    <servlet-class>com.FreqBorrowers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FreqBorrowers</servlet-name>
+    <url-pattern>/FreqBorrowers</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>FreqBorrowedBooks</servlet-name>
+    <servlet-class>com.FreqBorrowedBooks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FreqBorrowedBooks</servlet-name>
+    <url-pattern>/FreqBorrowedBooks</url-pattern>
+  </servlet-mapping>
+
+     <servlet>
+    <servlet-name>ReserveToCheckout</servlet-name>
+    <servlet-class>com.ReserveToCheckout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveToCheckout</servlet-name>
+    <url-pattern>/ReserveToCheckout</url-pattern>
+  </servlet-mapping>
+
+</web-app>
